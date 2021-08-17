@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+.container .navbar-brand {
+  font-variant: small-caps;
+  font-family: "Style Script", cursive;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+
+.container .navbar-brand:hover {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #fff7ae;
+  cursor: default;
+  padding-top: 5rem;
+}
+
+.jumbotron .rounded-circle {
+  background-color: #df2e2e;
+  border: 4px solid white;
+}
+
+.jumbotron h1 {
+  padding-top: 2rem;
+  font-size: 2em;
+}
+
+#about {
+  background-color: #297f87;
+  color: white;
+  cursor: default;
+}
+#about .container h3 {
+  font-size: 3em;
+  font-variant: small-caps;
+  font-family: "Style Script", cursive;
+}
+
+#about .container p {
+  font-size: 0.9em;
+}
+
+#project {
+  background-color: #fff7ae;
+  cursor: default;
+}
+
+#project .container h3 {
+  font-size: 3em;
+  font-variant: small-caps;
+  font-family: "Style Script", cursive;
+}
+
+#contactme {
+  background-color: #f6d167;
+  cursor: default;
+}
+
+#contactme .container h3 {
+  font-size: 2.5em;
+  font-family: "Style Script", cursive;
+}
+
+footer {
+  background-color: #df2e2e;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+footer .texting {
+  font-size: 30px;
+}
+
+section {
+  padding-top: 5rem;
+}
